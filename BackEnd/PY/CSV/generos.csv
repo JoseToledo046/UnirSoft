@@ -11,15 +11,12 @@
 719221,53,Suspense
 614933,878,Ciencia ficción
 614933,28,Acción
-746036,28,Acción
-746036,35,Comedia
 573435,28,Acción
 573435,80,Crimen
 573435,53,Suspense
+746036,28,Acción
+746036,35,Comedia
 437342,27,Terror
-940721,878,Ciencia ficción
-940721,27,Terror
-940721,28,Acción
 1022789,16,Animación
 1022789,10751,Familia
 1022789,18,Drama
@@ -28,6 +25,9 @@
 786892,28,Acción
 786892,12,Aventura
 786892,878,Ciencia ficción
+940721,878,Ciencia ficción
+940721,27,Terror
+940721,28,Acción
 693134,878,Ciencia ficción
 693134,12,Aventura
 882059,28,Acción
@@ -49,12 +49,12 @@
 748783,12,Aventura
 872585,18,Drama
 872585,36,Historia
-385687,28,Acción
-385687,80,Crimen
-385687,53,Suspense
 1041613,27,Terror
 1041613,9648,Misterio
 1041613,53,Suspense
+385687,28,Acción
+385687,80,Crimen
+385687,53,Suspense
 7451,28,Acción
 7451,12,Aventura
 7451,53,Suspense
@@ -68,13 +68,15 @@
 414906,80,Crimen
 414906,9648,Misterio
 414906,53,Suspense
+940551,16,Animación
+940551,28,Acción
+940551,12,Aventura
+940551,35,Comedia
+940551,10751,Familia
 1010581,18,Drama
 1010581,10749,Romance
 346698,35,Comedia
 346698,12,Aventura
-218,28,Acción
-218,53,Suspense
-218,878,Ciencia ficción
 150540,16,Animación
 150540,10751,Familia
 150540,12,Aventura
@@ -83,11 +85,6 @@
 284053,28,Acción
 284053,12,Aventura
 284053,878,Ciencia ficción
-940551,16,Animación
-940551,28,Acción
-940551,12,Aventura
-940551,35,Comedia
-940551,10751,Familia
 577922,28,Acción
 577922,53,Suspense
 577922,878,Ciencia ficción
@@ -98,27 +95,21 @@
 978592,53,Suspense
 978592,80,Crimen
 978592,18,Drama
-348,27,Terror
-348,878,Ciencia ficción
+218,28,Acción
+218,53,Suspense
+218,878,Ciencia ficción
 508947,16,Animación
 508947,10751,Familia
 508947,35,Comedia
 508947,14,Fantasía
-293660,28,Acción
-293660,12,Aventura
-293660,35,Comedia
-603,28,Acción
-603,878,Ciencia ficción
-760104,27,Terror
-760104,53,Suspense
-760104,9648,Misterio
-660360,28,Acción
-660360,36,Historia
-660360,18,Drama
-660360,10752,Bélica
 405774,27,Terror
 405774,53,Suspense
 405774,18,Drama
+634492,28,Acción
+634492,14,Fantasía
+1096197,28,Acción
+1096197,27,Terror
+1096197,53,Suspense
 11,12,Aventura
 11,28,Acción
 11,878,Ciencia ficción
@@ -161,6 +152,14 @@
 126889,878,Ciencia ficción
 126889,27,Terror
 126889,9648,Misterio
+760104,27,Terror
+760104,53,Suspense
+760104,9648,Misterio
+348,27,Terror
+348,878,Ciencia ficción
+293660,28,Acción
+293660,12,Aventura
+293660,35,Comedia
 62,878,Ciencia ficción
 62,9648,Misterio
 62,12,Aventura
@@ -270,7 +269,8 @@
 1211728,27,Terror
 1087388,27,Terror
 1087388,53,Suspense
-9482,878,Ciencia ficción
+1087388,27,Terror
+1087388,53,Suspense
 395990,28,Acción
 395990,80,Crimen
 395990,18,Drama
@@ -299,6 +299,10 @@
 38700,80,Crimen
 424139,27,Terror
 424139,53,Suspense
+1086747,27,Terror
+1086747,9648,Misterio
+1086747,53,Suspense
+1086747,14,Fantasía
 1111873,27,Terror
 1111873,53,Suspense
 1107387,18,Drama
@@ -309,11 +313,7 @@
 578,12,Aventura
 339403,28,Acción
 339403,80,Crimen
-635,27,Terror
-635,9648,Misterio
-866398,28,Acción
-866398,80,Crimen
-866398,53,Suspense
+9482,878,Ciencia ficción
 64635,28,Acción
 64635,878,Ciencia ficción
 64635,53,Suspense
@@ -346,6 +346,9 @@
 639720,35,Comedia
 639720,14,Fantasía
 639720,10751,Familia
+866398,28,Acción
+866398,80,Crimen
+866398,53,Suspense
 119450,878,Ciencia ficción
 119450,28,Acción
 119450,18,Drama
@@ -353,6 +356,9 @@
 383498,28,Acción
 383498,35,Comedia
 383498,12,Aventura
+912649,28,Acción
+912649,878,Ciencia ficción
+912649,12,Aventura
 391713,18,Drama
 391713,35,Comedia
 34152,35,Comedia
@@ -364,11 +370,11 @@
 315635,12,Aventura
 315635,878,Ciencia ficción
 315635,18,Drama
+937287,10749,Romance
+937287,18,Drama
 1105407,28,Acción
 1105407,80,Crimen
 1105407,53,Suspense
-937287,10749,Romance
-937287,18,Drama
 634521,28,Acción
 634521,53,Suspense
 634521,14,Fantasía
@@ -390,6 +396,8 @@
 198184,80,Crimen
 198184,28,Acción
 198184,878,Ciencia ficción
+635,27,Terror
+635,9648,Misterio
 474350,27,Terror
 299536,12,Aventura
 299536,28,Acción
@@ -448,9 +456,10 @@
 76600,878,Ciencia ficción
 76600,12,Aventura
 76600,28,Acción
-1057001,28,Acción
-1057001,53,Suspense
-1057001,18,Drama
+519182,16,Animación
+519182,10751,Familia
+519182,35,Comedia
+519182,28,Acción
 299534,12,Aventura
 299534,878,Ciencia ficción
 299534,28,Acción
@@ -462,11 +471,6 @@
 419430,9648,Misterio
 419430,53,Suspense
 419430,27,Terror
-1001311,53,Suspense
-1001311,27,Terror
-1001311,28,Acción
-1001311,9648,Misterio
-346364,27,Terror
 346364,27,Terror
 862,16,Animación
 862,12,Aventura
@@ -495,13 +499,12 @@
 765,27,Terror
 765,35,Comedia
 765,14,Fantasía
+1057001,28,Acción
+1057001,53,Suspense
+1057001,18,Drama
 447332,27,Terror
 447332,18,Drama
 447332,878,Ciencia ficción
-519182,16,Animación
-519182,10751,Familia
-519182,35,Comedia
-519182,28,Acción
 376866,18,Drama
 969492,28,Acción
 969492,53,Suspense
@@ -522,6 +525,9 @@
 1012201,18,Drama
 38147,14,Fantasía
 38147,35,Comedia
+856289,28,Acción
+856289,14,Fantasía
+856289,10752,Bélica
 1151703,27,Terror
 1151703,28,Acción
 1151703,878,Ciencia ficción
@@ -576,65 +582,61 @@
 2142,9648,Misterio
 264660,18,Drama
 264660,878,Ciencia ficción
-514847,28,Acción
-514847,53,Suspense
-514847,27,Terror
-424783,28,Acción
-424783,12,Aventura
-424783,878,Ciencia ficción
-1127108,18,Drama
-323260,10749,Romance
-323260,18,Drama
-323260,35,Comedia
-61791,53,Suspense
-61791,28,Acción
-61791,18,Drama
-61791,878,Ciencia ficción
-1034751,27,Terror
-1034751,14,Fantasía
-1034751,28,Acción
-1034751,9648,Misterio
-769,18,Drama
-769,80,Crimen
-1375,18,Drama
-910,9648,Misterio
-910,80,Crimen
-910,53,Suspense
-540901,18,Drama
-540901,35,Comedia
-540901,80,Crimen
-274855,28,Acción
-274855,878,Ciencia ficción
-274855,53,Suspense
-502356,16,Animación
-502356,10751,Familia
-502356,12,Aventura
-502356,14,Fantasía
-502356,35,Comedia
-1239251,16,Animación
-1239251,35,Comedia
-1239251,878,Ciencia ficción
-464052,28,Acción
-464052,12,Aventura
-464052,14,Fantasía
-531309,27,Terror
-531309,878,Ciencia ficción
-531309,53,Suspense
-531309,9648,Misterio
-1209288,16,Animación
-1209288,878,Ciencia ficción
-1209288,28,Acción
-1025463,878,Ciencia ficción
-1025463,28,Acción
-1025463,12,Aventura
-856289,28,Acción
-856289,14,Fantasía
-856289,10752,Bélica
-473033,18,Drama
-473033,53,Suspense
-473033,80,Crimen
-812037,18,Drama
-812037,53,Suspense
+603692,28,Acción
+603692,53,Suspense
+603692,80,Crimen
+569094,16,Animación
+569094,28,Acción
+569094,12,Aventura
+569094,878,Ciencia ficción
+765,27,Terror
+765,35,Comedia
+765,14,Fantasía
+951491,27,Terror
+951491,53,Suspense
+1892,12,Aventura
+1892,28,Acción
+1892,878,Ciencia ficción
+1422,18,Drama
+1422,53,Suspense
+1422,80,Crimen
+167073,10749,Romance
+167073,18,Drama
+804095,18,Drama
+618588,12,Aventura
+618588,18,Drama
+13765,14,Fantasía
+13765,18,Drama
+13765,10751,Familia
+861,28,Acción
+861,12,Aventura
+861,878,Ciencia ficción
+696,35,Comedia
+696,18,Drama
+696,10749,Romance
+340102,878,Ciencia ficción
+340102,27,Terror
+340102,28,Acción
+340102,9648,Misterio
+340102,12,Aventura
+426563,9648,Misterio
+426563,12,Aventura
+426563,35,Comedia
+426563,80,Crimen
+525,10402,Música
+525,35,Comedia
+525,28,Acción
+525,80,Crimen
+34851,878,Ciencia ficción
+34851,28,Acción
+34851,53,Suspense
+264660,18,Drama
+264660,878,Ciencia ficción
+804150,53,Suspense
+804150,35,Comedia
+804150,80,Crimen
+1142414,53,Suspense
+1142414,27,Terror
 275,80,Crimen
 275,18,Drama
 275,53,Suspense
@@ -658,9 +660,6 @@
 398978,80,Crimen
 398978,18,Drama
 398978,36,Historia
-912649,28,Acción
-912649,878,Ciencia ficción
-912649,12,Aventura
 169,878,Ciencia ficción
 169,28,Acción
 169,53,Suspense
@@ -711,9 +710,6 @@
 804095,18,Drama
 1128992,18,Drama
 1128992,10749,Romance
-720321,878,Ciencia ficción
-720321,9648,Misterio
-720321,53,Suspense
 16288,27,Terror
 16288,35,Comedia
 340102,878,Ciencia ficción
@@ -751,6 +747,8 @@
 793,18,Drama
 793,9648,Misterio
 793,53,Suspense
+1294849,35,Comedia
+1294849,10749,Romance
 274870,18,Drama
 274870,10749,Romance
 274870,878,Ciencia ficción
@@ -784,6 +782,8 @@
 34223,27,Terror
 401981,53,Suspense
 401981,9648,Misterio
+1263421,16,Animación
+1263421,28,Acción
 799583,28,Acción
 799583,10752,Bélica
 799583,18,Drama
@@ -800,60 +800,60 @@
 3767,10749,Romance
 3767,18,Drama
 3767,53,Suspense
-616037,14,Fantasía
-616037,28,Acción
-616037,35,Comedia
-1124,18,Drama
-1124,9648,Misterio
-1124,878,Ciencia ficción
-1635,28,Acción
-1635,53,Suspense
-1635,878,Ciencia ficción
-1635,12,Aventura
-315162,16,Animación
-315162,12,Aventura
-315162,14,Fantasía
-315162,35,Comedia
-315162,10751,Familia
-324786,18,Drama
-324786,36,Historia
-324786,10752,Bélica
-70981,878,Ciencia ficción
-70981,12,Aventura
-70981,9648,Misterio
+1008437,16,Animación
+1008437,10751,Familia
+1008437,12,Aventura
+1008437,35,Comedia
+575264,28,Acción
+575264,53,Suspense
+1049948,28,Acción
+339404,35,Comedia
+339404,10749,Romance
+1125311,27,Terror
+1125311,9648,Misterio
+1125311,53,Suspense
+1231574,16,Animación
+1231574,14,Fantasía
+1231574,12,Aventura
+1231574,10751,Familia
+615656,28,Acción
+615656,878,Ciencia ficción
+615656,27,Terror
+1216299,37,Western
+1216299,53,Suspense
+1216299,28,Acción
+804095,18,Drama
 244786,18,Drama
 244786,10402,Música
-1156593,18,Drama
-1156593,10749,Romance
-168098,27,Terror
-168098,878,Ciencia ficción
-168098,53,Suspense
-2103,18,Drama
-2103,878,Ciencia ficción
-2103,9648,Misterio
-821937,28,Acción
-821937,53,Suspense
-246655,28,Acción
-246655,12,Aventura
-246655,878,Ciencia ficción
-246655,14,Fantasía
-1171462,28,Acción
-1171462,12,Aventura
-1171462,35,Comedia
-1155089,16,Animación
-1155089,878,Ciencia ficción
-1155089,28,Acción
-36669,12,Aventura
-36669,28,Acción
-36669,53,Suspense
-39538,18,Drama
-39538,53,Suspense
-39538,878,Ciencia ficción
-301528,10751,Familia
-301528,12,Aventura
-301528,16,Animación
-301528,35,Comedia
-301528,14,Fantasía
+14,18,Drama
+784651,28,Acción
+784651,53,Suspense
+784651,10752,Bélica
+299054,28,Acción
+299054,12,Aventura
+299054,53,Suspense
+910,9648,Misterio
+910,80,Crimen
+910,53,Suspense
+8009,12,Aventura
+8009,28,Acción
+8009,14,Fantasía
+9003,27,Terror
+9003,53,Suspense
+9003,14,Fantasía
+345,18,Drama
+345,53,Suspense
+345,9648,Misterio
+1115395,9648,Misterio
+1115395,53,Suspense
+1115395,80,Crimen
+1115395,18,Drama
+453405,878,Ciencia ficción
+453405,28,Acción
+453405,53,Suspense
+1077280,35,Comedia
+1077280,28,Acción
+1077280,53,Suspense
 437557,35,Comedia
 378236,16,Animación
 378236,10751,Familia
@@ -915,12 +915,11 @@
 11808,53,Suspense
 11808,80,Crimen
 11808,28,Acción
+11808,53,Suspense
+11808,80,Crimen
+11808,28,Acción
 547012,35,Comedia
 547012,18,Drama
-9480,14,Fantasía
-9480,28,Acción
-289,18,Drama
-289,10749,Romance
 9480,14,Fantasía
 9480,28,Acción
 289,18,Drama
@@ -928,8 +927,6 @@
 241848,9648,Misterio
 241848,53,Suspense
 241848,28,Acción
-1294849,35,Comedia
-1294849,10749,Romance
 615656,28,Acción
 615656,878,Ciencia ficción
 615656,27,Terror
@@ -968,9 +965,12 @@
 5876,27,Terror
 5876,878,Ciencia ficción
 5876,53,Suspense
-784651,28,Acción
-784651,53,Suspense
-784651,10752,Bélica
+24428,878,Ciencia ficción
+24428,28,Acción
+24428,12,Aventura
+539,27,Terror
+539,53,Suspense
+539,9648,Misterio
 1049948,28,Acción
 500475,28,Acción
 500475,80,Crimen
@@ -1021,13 +1021,13 @@
 327331,10402,Música
 327331,36,Historia
 327331,35,Comedia
+327331,18,Drama
+327331,10402,Música
+327331,36,Historia
+327331,35,Comedia
 572802,28,Acción
 572802,12,Aventura
 572802,14,Fantasía
-85350,18,Drama
-695721,18,Drama
-695721,878,Ciencia ficción
-695721,28,Acción
 624860,878,Ciencia ficción
 624860,28,Acción
 624860,12,Aventura
@@ -1184,119 +1184,109 @@
 955916,80,Crimen
 11470,27,Terror
 11470,878,Ciencia ficción
-673,12,Aventura
-673,14,Fantasía
-86829,18,Drama
-86829,10402,Música
-513310,28,Acción
-513310,878,Ciencia ficción
-513310,53,Suspense
+10803,28,Acción
+10803,878,Ciencia ficción
+34223,35,Comedia
+34223,27,Terror
+20766,12,Aventura
+20766,18,Drama
+857,18,Drama
+857,36,Historia
+857,10752,Bélica
+436270,28,Acción
+436270,12,Aventura
+436270,878,Ciencia ficción
+37135,10751,Familia
+37135,12,Aventura
+37135,16,Animación
+37135,18,Drama
+354287,35,Comedia
+354287,18,Drama
+354287,10752,Bélica
+9480,14,Fantasía
+9480,28,Acción
+507086,12,Aventura
+507086,28,Acción
+507086,878,Ciencia ficción
+8587,10751,Familia
+8587,16,Animación
+8587,18,Drama
 425909,14,Fantasía
 425909,35,Comedia
 425909,12,Aventura
 425909,878,Ciencia ficción
-369557,10749,Romance
-369557,18,Drama
-369557,10402,Música
-149,16,Animación
-149,878,Ciencia ficción
-149,28,Acción
-637649,28,Acción
-637649,80,Crimen
-637649,53,Suspense
-1211483,28,Acción
-1211483,27,Terror
-1211483,35,Comedia
-1211483,53,Suspense
-188927,28,Acción
-188927,12,Aventura
-188927,878,Ciencia ficción
-664,28,Acción
-664,12,Aventura
-664,18,Drama
-467244,36,Historia
-467244,18,Drama
+974036,18,Drama
+13597,12,Aventura
+13597,10751,Familia
+13597,14,Fantasía
+446354,18,Drama
+446354,36,Historia
+1417,14,Fantasía
+1417,18,Drama
+1417,10752,Bélica
 269149,16,Animación
 269149,12,Aventura
 269149,10751,Familia
 269149,35,Comedia
-120,12,Aventura
-120,14,Fantasía
-120,28,Acción
-354287,35,Comedia
-354287,18,Drama
-354287,10752,Bélica
-1263421,16,Animación
-1263421,28,Acción
-507086,12,Aventura
-507086,28,Acción
-507086,878,Ciencia ficción
-446354,18,Drama
-446354,36,Historia
-50014,18,Drama
-411,12,Aventura
-411,10751,Familia
-411,14,Fantasía
-411,12,Aventura
-411,10751,Familia
-411,14,Fantasía
-588228,28,Acción
-588228,878,Ciencia ficción
-588228,12,Aventura
 504949,18,Drama
 504949,36,Historia
 504949,10752,Bélica
-273477,35,Comedia
-273477,27,Terror
-384521,27,Terror
-384521,878,Ciencia ficción
-384521,28,Acción
-424121,27,Terror
-424121,9648,Misterio
-424121,53,Suspense
-424121,18,Drama
-278,18,Drama
-278,80,Crimen
-22,12,Aventura
-22,14,Fantasía
-22,28,Acción
-412656,14,Fantasía
-412656,878,Ciencia ficción
-412656,12,Aventura
-22450,27,Terror
-22450,28,Acción
-341006,27,Terror
-341006,53,Suspense
-597,18,Drama
-597,10749,Romance
-12153,35,Comedia
-12153,80,Crimen
-310307,18,Drama
-310307,36,Historia
-1930,28,Acción
-1930,12,Aventura
-1930,878,Ciencia ficción
-758679,53,Suspense
-758679,18,Drama
-418078,18,Drama
-418078,27,Terror
-418078,9648,Misterio
-152601,10749,Romance
-152601,878,Ciencia ficción
-152601,18,Drama
-345887,28,Acción
-345887,53,Suspense
-345887,80,Crimen
+1028703,53,Suspense
+1028703,28,Acción
+1028703,27,Terror
+240,18,Drama
+240,80,Crimen
+980489,12,Aventura
+980489,28,Acción
+980489,18,Drama
 848538,28,Acción
 848538,12,Aventura
 848538,35,Comedia
+829560,10749,Romance
+829560,18,Drama
+557,28,Acción
+557,878,Ciencia ficción
+260346,53,Suspense
+260346,28,Acción
+72808,18,Drama
+72808,10749,Romance
+271110,12,Aventura
+271110,28,Acción
+271110,878,Ciencia ficción
+310307,18,Drama
+310307,36,Historia
+157433,27,Terror
+157433,53,Suspense
+484718,35,Comedia
+619979,18,Drama
+619979,9648,Misterio
+619979,53,Suspense
+467244,36,Historia
+467244,18,Drama
+58,12,Aventura
+58,14,Fantasía
+58,28,Acción
+767,12,Aventura
+767,14,Fantasía
+18,12,Aventura
+18,14,Fantasía
+18,28,Acción
+18,53,Suspense
+18,878,Ciencia ficción
+871,878,Ciencia ficción
+871,12,Aventura
+871,18,Drama
+871,28,Acción
+1930,28,Acción
+1930,12,Aventura
+1930,878,Ciencia ficción
+213,9648,Misterio
+213,53,Suspense
+213,12,Aventura
 49863,10402,Música
 49863,35,Comedia
 49863,18,Drama
 49863,10751,Familia
-974635,10749,Romance
-974635,35,Comedia
-974635,80,Crimen
 630004,18,Drama
 630004,28,Acción
 630004,53,Suspense
@@ -1432,6 +1422,8 @@
 429617,878,Ciencia ficción
 545609,28,Acción
 545609,53,Suspense
+1010600,27,Terror
+1010600,53,Suspense
 9603,35,Comedia
 9603,10749,Romance
 9603,18,Drama
@@ -1444,6 +1436,7 @@
 933131,28,Acción
 381284,18,Drama
 381284,36,Historia
+1175156,35,Comedia
 387426,12,Aventura
 387426,18,Drama
 387426,878,Ciencia ficción
@@ -1550,54 +1543,63 @@
 58,28,Acción
 4488,27,Terror
 2246,53,Suspense
-698835,16,Animación
-698835,12,Aventura
-698835,9648,Misterio
-12445,14,Fantasía
-12445,12,Aventura
-6950,28,Acción
-6950,18,Drama
-6950,878,Ciencia ficción
-6950,53,Suspense
-829560,10749,Romance
-829560,18,Drama
-72808,18,Drama
-72808,10749,Romance
+337167,18,Drama
+337167,10749,Romance
+49521,28,Acción
+49521,12,Aventura
+49521,878,Ciencia ficción
+1015303,27,Terror
 177572,12,Aventura
 177572,10751,Familia
 177572,16,Animación
 177572,28,Acción
 177572,35,Comedia
+260514,10751,Familia
+260514,16,Animación
+260514,12,Aventura
+260514,35,Comedia
+8966,14,Fantasía
+8966,18,Drama
+8966,10749,Romance
 210577,9648,Misterio
 210577,53,Suspense
 210577,18,Drama
-8469,35,Comedia
-12444,12,Aventura
-12444,14,Fantasía
-709,12,Aventura
-709,28,Acción
-709,53,Suspense
-661374,35,Comedia
-661374,80,Crimen
-661374,9648,Misterio
-11688,12,Aventura
-11688,16,Animación
-11688,35,Comedia
-11688,10751,Familia
-11688,14,Fantasía
-607,28,Acción
-607,12,Aventura
-607,35,Comedia
-607,878,Ciencia ficción
-9502,28,Acción
-9502,12,Aventura
-9502,16,Animación
-9502,10751,Familia
-9502,35,Comedia
-1212073,28,Acción
-598,18,Drama
-598,80,Crimen
+150689,10749,Romance
+150689,14,Fantasía
+150689,10751,Familia
+150689,18,Drama
+93456,16,Animación
+93456,35,Comedia
+93456,10751,Familia
+9100,27,Terror
+9100,18,Drama
+9100,14,Fantasía
+646,12,Aventura
+646,28,Acción
+646,53,Suspense
+387426,12,Aventura
+387426,18,Drama
+387426,878,Ciencia ficción
+561,14,Fantasía
+561,28,Acción
+561,27,Terror
+1139829,16,Animación
+1139829,10751,Familia
+1139829,35,Comedia
+1139829,14,Fantasía
+455207,35,Comedia
+455207,10749,Romance
+496450,16,Animación
+496450,14,Fantasía
+496450,28,Acción
+496450,10749,Romance
+496450,10751,Familia
 673593,35,Comedia
+954,12,Aventura
+954,28,Acción
+954,53,Suspense
+446354,18,Drama
+446354,36,Historia
 756999,27,Terror
 756999,53,Suspense
 745,9648,Misterio
@@ -1739,9 +1741,6 @@
 602,878,Ciencia ficción
 1014590,10749,Romance
 1014590,35,Comedia
-131631,878,Ciencia ficción
-131631,12,Aventura
-131631,53,Suspense
 500664,28,Acción
 500664,53,Suspense
 500664,878,Ciencia ficción
@@ -1844,6 +1843,7 @@
 2019,80,Crimen
 2019,53,Suspense
 390845,10749,Romance
+390845,10749,Romance
 585083,16,Animación
 585083,35,Comedia
 585083,10751,Familia
@@ -1892,67 +1892,60 @@
 10192,14,Fantasía
 10192,16,Animación
 10192,10751,Familia
-102382,28,Acción
-102382,12,Aventura
-102382,878,Ciencia ficción
-10681,16,Animación
-10681,10751,Familia
-10681,878,Ciencia ficción
-177677,28,Acción
-177677,12,Aventura
-102382,28,Acción
-102382,12,Aventura
-102382,878,Ciencia ficción
-10681,16,Animación
-10681,10751,Familia
-10681,878,Ciencia ficción
-177677,28,Acción
-177677,12,Aventura
-585511,16,Animación
-585511,12,Aventura
-585511,35,Comedia
-585511,14,Fantasía
-1257750,10749,Romance
-1257750,35,Comedia
-533642,27,Terror
-533642,53,Suspense
-50620,12,Aventura
-50620,14,Fantasía
-50620,18,Drama
-50620,10749,Romance
-630240,18,Drama
-630240,53,Suspense
-630240,27,Terror
-181808,12,Aventura
-181808,28,Acción
-181808,878,Ciencia ficción
-8913,27,Terror
-8913,18,Drama
-559,28,Acción
-559,12,Aventura
-559,878,Ciencia ficción
+8078,878,Ciencia ficción
+8078,27,Terror
+8078,28,Acción
+10193,16,Animación
+10193,10751,Familia
+10193,35,Comedia
+782,53,Suspense
+782,878,Ciencia ficción
+782,9648,Misterio
+782,10749,Romance
+140607,12,Aventura
+140607,28,Acción
+140607,878,Ciencia ficción
+429,37,Western
+646207,28,Acción
+646207,53,Suspense
+641934,18,Drama
+641934,35,Comedia
+641934,10749,Romance
 73723,16,Animación
 73723,10751,Familia
-345922,35,Comedia
-396371,18,Drama
-396371,80,Crimen
-508943,16,Animación
-508943,35,Comedia
-508943,14,Fantasía
-508943,12,Aventura
-508943,10751,Familia
-50270,18,Drama
-296523,53,Suspense
-296523,18,Drama
-296523,10752,Bélica
-522016,28,Acción
-522016,53,Suspense
-11224,10751,Familia
-11224,14,Fantasía
-11224,16,Animación
-11224,10749,Romance
-373571,878,Ciencia ficción
-373571,28,Acción
+709,12,Aventura
+709,28,Acción
+709,53,Suspense
+10882,14,Fantasía
+10882,16,Animación
+10882,10749,Romance
+10882,10751,Familia
+338766,37,Western
+338766,80,Crimen
+338766,18,Drama
+13850,10751,Familia
+13850,16,Animación
+515195,35,Comedia
+515195,14,Fantasía
+515195,10402,Música
+515195,10749,Romance
+253935,18,Drama
+253935,878,Ciencia ficción
+1273196,99,Documental
+177677,28,Acción
+177677,12,Aventura
+652,12,Aventura
+652,36,Historia
+652,10752,Bélica
+652,28,Acción
+533642,27,Terror
+533642,53,Suspense
+97,878,Ciencia ficción
+97,28,Acción
+97,12,Aventura
+131631,878,Ciencia ficción
+131631,12,Aventura
+131631,53,Suspense
 290250,35,Comedia
 290250,80,Crimen
 290250,28,Acción
@@ -2046,6 +2039,10 @@
 21309,18,Drama
 21309,80,Crimen
 1015303,27,Terror
+1094556,10751,Familia
+1094556,878,Ciencia ficción
+1094556,28,Acción
+1094556,35,Comedia
 18785,35,Comedia
 31507,18,Drama
 31507,10749,Romance
@@ -2058,6 +2055,9 @@
 127585,28,Acción
 127585,12,Aventura
 127585,878,Ciencia ficción
+12155,10751,Familia
+12155,14,Fantasía
+12155,12,Aventura
 32629,27,Terror
 32629,35,Comedia
 32629,18,Drama
@@ -2125,8 +2125,6 @@
 277216,10402,Música
 277216,36,Historia
 11298,27,Terror
-823482,35,Comedia
-823482,14,Fantasía
 10191,14,Fantasía
 10191,12,Aventura
 10191,16,Animación
@@ -2152,8 +2150,6 @@
 24021,14,Fantasía
 24021,18,Drama
 24021,10749,Romance
-1027073,28,Acción
-1027073,53,Suspense
 508442,16,Animación
 508442,10751,Familia
 508442,35,Comedia
@@ -2194,10 +2190,6 @@
 483686,28,Acción
 483686,16,Animación
 483686,27,Terror
-1094556,10751,Familia
-1094556,878,Ciencia ficción
-1094556,28,Acción
-1094556,35,Comedia
 37165,35,Comedia
 37165,18,Drama
 9289,10752,Bélica
@@ -2209,6 +2201,9 @@
 65,18,Drama
 65,10402,Música
 396422,27,Terror
+561,14,Fantasía
+561,28,Acción
+561,27,Terror
 561,14,Fantasía
 561,28,Acción
 561,27,Terror
@@ -2264,6 +2259,8 @@
 355338,10751,Familia
 11976,12,Aventura
 11976,14,Fantasía
+1291143,99,Documental
+1291143,80,Crimen
 13633,80,Crimen
 13633,18,Drama
 13633,53,Suspense
@@ -2298,8 +2295,12 @@
 587792,35,Comedia
 587792,10749,Romance
 587792,878,Ciencia ficción
-1010600,27,Terror
-1010600,53,Suspense
+433808,27,Terror
+433808,53,Suspense
+433808,9648,Misterio
+101299,12,Aventura
+101299,28,Acción
+101299,878,Ciencia ficción
 433808,27,Terror
 433808,53,Suspense
 433808,9648,Misterio
@@ -2318,7 +2319,6 @@
 93456,16,Animación
 93456,35,Comedia
 93456,10751,Familia
-1175156,35,Comedia
 506574,10751,Familia
 506574,10770,Película de TV
 506574,12,Aventura
@@ -2334,6 +2334,9 @@
 36557,12,Aventura
 36557,28,Acción
 36557,53,Suspense
+1071215,27,Terror
+1071215,9648,Misterio
+1071215,53,Suspense
 334521,28,Acción
 334521,80,Crimen
 334521,9648,Misterio
@@ -2350,59 +2353,60 @@
 810,16,Animación
 810,35,Comedia
 810,10751,Familia
-11797,35,Comedia
-11797,27,Terror
-337404,35,Comedia
-337404,80,Crimen
-678512,28,Acción
-678512,18,Drama
-678512,28,Acción
-678512,18,Drama
-914,35,Comedia
-914,10752,Bélica
-12155,10751,Familia
-12155,14,Fantasía
-12155,12,Aventura
-1248795,10749,Romance
-1248795,28,Acción
-1248795,18,Drama
-1227816,80,Crimen
-1227816,28,Acción
-1227816,53,Suspense
-176,27,Terror
-176,9648,Misterio
-176,80,Crimen
-286217,18,Drama
-286217,12,Aventura
-286217,878,Ciencia ficción
-4723,878,Ciencia ficción
-4723,53,Suspense
-4723,35,Comedia
-116776,28,Acción
-116776,16,Animación
-337167,18,Drama
-337167,10749,Romance
-423108,27,Terror
-423108,9648,Misterio
-423108,53,Suspense
-798612,36,Historia
-798612,18,Drama
-614930,16,Animación
-614930,35,Comedia
-614930,28,Acción
-614930,878,Ciencia ficción
-109418,35,Comedia
-916224,16,Animación
-916224,18,Drama
-916224,12,Aventura
-916224,14,Fantasía
-341174,18,Drama
-341174,10749,Romance
-184315,28,Acción
-184315,12,Aventura
+24584,18,Drama
+24584,10749,Romance
+678,80,Crimen
+678,10749,Romance
+678,53,Suspense
+1927,878,Ciencia ficción
+1927,12,Aventura
+1927,28,Acción
+7512,35,Comedia
+7512,878,Ciencia ficción
+7512,12,Aventura
+961323,12,Aventura
+961323,16,Animación
+961323,14,Fantasía
+961323,10751,Familia
+483685,27,Terror
+483685,28,Acción
+483685,16,Animación
+483685,18,Drama
+10625,18,Drama
+10625,35,Comedia
+1495,18,Drama
+1495,28,Acción
+1495,12,Aventura
+1495,36,Historia
+1495,10752,Bélica
+262500,28,Acción
+262500,12,Aventura
+262500,878,Ciencia ficción
+262500,53,Suspense
+823482,35,Comedia
+823482,14,Fantasía
+1291143,99,Documental
+1291143,80,Crimen
+2105,35,Comedia
+2105,10749,Romance
+807172,27,Terror
+10589,28,Acción
+10589,35,Comedia
+10589,80,Crimen
+10589,18,Drama
+6950,28,Acción
+6950,18,Drama
+6950,878,Ciencia ficción
+6950,53,Suspense
+10895,16,Animación
+10895,10751,Familia
+10895,14,Fantasía
 13475,878,Ciencia ficción
 13475,28,Acción
 13475,12,Aventura
+496243,35,Comedia
+496243,53,Suspense
+496243,18,Drama
 7555,28,Acción
 7555,53,Suspense
 7555,10752,Bélica
@@ -2457,8 +2461,6 @@
 101,80,Crimen
 101,18,Drama
 101,28,Acción
-2105,35,Comedia
-2105,10749,Romance
 628,27,Terror
 628,18,Drama
 628,14,Fantasía
@@ -2545,6 +2547,10 @@
 78,18,Drama
 78,53,Suspense
 384527,18,Drama
+78,878,Ciencia ficción
+78,18,Drama
+78,53,Suspense
+384527,18,Drama
 500,80,Crimen
 500,53,Suspense
 158852,12,Aventura
@@ -2577,11 +2583,8 @@
 240832,878,Ciencia ficción
 744275,10749,Romance
 744275,18,Drama
+493529,12,Aventura
+493529,14,Fantasía
+493529,35,Comedia
 390043,28,Acción
 390043,35,Comedia
-11977,35,Comedia
-209112,28,Acción
-209112,12,Aventura
-209112,14,Fantasía
-24584,18,Drama
-24584,10749,Romance

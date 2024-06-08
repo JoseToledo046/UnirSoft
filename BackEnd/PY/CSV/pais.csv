@@ -5,14 +5,14 @@
 823464,United States of America
 719221,United States of America
 614933,United States of America
+573435,United States of America
 746036,Australia
 746036,United States of America
-573435,United States of America
 437342,United States of America
-940721,Japan
 1022789,United States of America
 786892,United States of America
 786892,Australia
+940721,Japan
 693134,United States of America
 882059,United States of America
 1011985,United States of America
@@ -24,8 +24,8 @@
 748783,United States of America
 872585,United Kingdom
 872585,United States of America
-385687,United States of America
 1041613,United States of America
+385687,United States of America
 7451,United States of America
 7451,Czech Republic
 984324,Belgium
@@ -34,26 +34,22 @@
 335983,China
 335983,United States of America
 414906,United States of America
+940551,United States of America
 1010581,Spain
 346698,United Kingdom
 346698,United States of America
-218,United Kingdom
-218,United States of America
 150540,United States of America
 284053,United States of America
-940551,United States of America
 577922,United Kingdom
 577922,United States of America
 298618,United States of America
 978592,United States of America
-348,United States of America
-348,United Kingdom
+218,United Kingdom
+218,United States of America
 508947,United States of America
-293660,United States of America
-603,United States of America
-760104,United States of America
-660360,South Korea
 405774,United States of America
+634492,United States of America
+1096197,United Kingdom
 11,United States of America
 634492,United States of America
 1096197,United Kingdom
@@ -75,6 +71,10 @@
 1366,United States of America
 126889,United Kingdom
 126889,United States of America
+760104,United States of America
+348,United States of America
+348,United Kingdom
+293660,United States of America
 62,United Kingdom
 62,United States of America
 27205,United Kingdom
@@ -132,7 +132,8 @@
 1211728,New Zealand
 1087388,Australia
 1087388,United States of America
-9482,United States of America
+1087388,Australia
+1087388,United States of America
 395990,United States of America
 103,United States of America
 934632,United States of America
@@ -145,17 +146,14 @@
 794,United Kingdom
 38700,United States of America
 424139,United States of America
+1086747,United States of America
 1111873,United States of America
 1107387,China
 920342,China
 578,United States of America
 339403,United Kingdom
 339403,United States of America
-635,Canada
-635,United Kingdom
-635,United States of America
-866398,United Kingdom
-866398,United States of America
+9482,United States of America
 64635,Canada
 64635,India
 64635,United States of America
@@ -169,18 +167,21 @@
 141052,United States of America
 829,United States of America
 639720,United States of America
+866398,United Kingdom
+866398,United States of America
 119450,United Kingdom
 119450,United States of America
 383498,United States of America
+912649,United States of America
 391713,United States of America
 34152,United States of America
 27579,United Kingdom
 27579,United States of America
 315635,United States of America
-1105407,United Kingdom
-1105407,United States of America
 937287,Italy
 937287,United States of America
+1105407,United Kingdom
+1105407,United States of America
 634521,Japan
 14564,United States of America
 369885,China
@@ -190,6 +191,9 @@
 10155,United States of America
 9348,United States of America
 198184,United States of America
+635,Canada
+635,United Kingdom
+635,United States of America
 474350,United States of America
 299536,United States of America
 36647,United States of America
@@ -224,13 +228,11 @@
 2756,United States of America
 497698,United States of America
 76600,United States of America
-1057001,South Korea
+519182,United States of America
 299534,United States of America
 1211307,Mexico
 13765,United Kingdom
 419430,United States of America
-1001311,France
-346364,United States of America
 346364,United States of America
 862,United States of America
 407448,United States of America
@@ -240,8 +242,8 @@
 400106,United States of America
 525,United States of America
 765,United States of America
+1057001,South Korea
 447332,United States of America
-519182,United States of America
 376866,Chile
 376866,China
 376866,France
@@ -256,6 +258,7 @@
 1022796,United States of America
 1012201,Japan
 38147,United States of America
+856289,China
 1151703,United States of America
 935271,United States of America
 926393,Italy
@@ -278,34 +281,32 @@
 2142,United States of America
 264660,United Kingdom
 264660,United States of America
-514847,Japan
-514847,United States of America
-424783,China
-424783,United States of America
-1127108,Sweden
-323260,Hong Kong
-61791,United Kingdom
-61791,United States of America
-1034751,Spain
-1034751,United States of America
-769,United States of America
-1375,United States of America
-910,United States of America
-540901,United States of America
-274855,Canada
-274855,Hong Kong
-274855,United States of America
-502356,Japan
-502356,United States of America
-1239251,United States of America
-464052,United States of America
-531309,United States of America
-1209288,United States of America
-1025463,Brazil
-856289,China
-473033,United States of America
-812037,France
-812037,Norway
+603692,Germany
+603692,United States of America
+569094,United States of America
+765,United States of America
+951491,United States of America
+1892,United States of America
+1422,Hong Kong
+1422,United States of America
+167073,Canada
+167073,Ireland
+167073,United Kingdom
+804095,United States of America
+618588,Canada
+618588,United States of America
+13765,United Kingdom
+861,United States of America
+861,Mexico
+696,United States of America
+340102,United States of America
+426563,United States of America
+525,United States of America
+34851,United States of America
+264660,United Kingdom
+264660,United States of America
+804150,United States of America
+1142414,United States of America
 275,United Kingdom
 275,United States of America
 550988,United States of America
@@ -317,7 +318,6 @@
 1072790,United States of America
 339404,United States of America
 398978,United States of America
-912649,United States of America
 169,United States of America
 9003,United Kingdom
 9003,United States of America
@@ -346,7 +346,6 @@
 569094,United States of America
 804095,United States of America
 1128992,Peru
-720321,United States of America
 16288,United States of America
 340102,United States of America
 402900,United States of America
@@ -361,6 +360,7 @@
 319,United States of America
 8467,United States of America
 793,United States of America
+1294849,Chile
 274870,United States of America
 293167,China
 293167,United States of America
@@ -381,6 +381,7 @@
 34223,United States of America
 401981,Hungary
 401981,United States of America
+1263421,Japan
 799583,United Kingdom
 799583,United States of America
 792,United Kingdom
@@ -390,28 +391,36 @@
 998846,United States of America
 11974,United States of America
 3767,United States of America
-616037,United States of America
-1124,United Kingdom
-1124,United States of America
-1635,United States of America
-315162,United States of America
-324786,United States of America
-70981,United Kingdom
-70981,United States of America
+1008437,South Korea
+1008437,United States of America
+575264,United States of America
+1049948,United Kingdom
+339404,United States of America
+1125311,United States of America
+1231574,Japan
+615656,China
+615656,United States of America
+1216299,United States of America
+804095,United States of America
 244786,United States of America
-1156593,Spain
-168098,United States of America
-2103,United States of America
-821937,Vietnam
-246655,United States of America
-1171462,Japan
-1155089,United States of America
-36669,Spain
-36669,United Kingdom
-36669,United States of America
-39538,United States of America
-39538,United Arab Emirates
-301528,United States of America
+14,United States of America
+784651,India
+299054,Bulgaria
+299054,France
+299054,United States of America
+910,United States of America
+8009,United Kingdom
+8009,United States of America
+9003,United Kingdom
+9003,United States of America
+345,United Kingdom
+345,United States of America
+1115395,Poland
+453405,China
+453405,Colombia
+453405,Hungary
+453405,United States of America
+1077280,United States of America
 437557,China
 437557,Japan
 437557,United States of America
@@ -438,15 +447,12 @@
 13,United States of America
 14160,United States of America
 11808,United States of America
+11808,United States of America
 547012,United States of America
 9480,Switzerland
 9480,United States of America
 289,United States of America
-9480,Switzerland
-9480,United States of America
-289,United States of America
 241848,United States of America
-1294849,Chile
 615656,China
 615656,United States of America
 20766,United States of America
@@ -465,7 +471,8 @@
 1108354,France
 642885,United States of America
 5876,United States of America
-784651,India
+24428,United States of America
+539,United States of America
 1049948,United Kingdom
 500475,United States of America
 593910,United States of America
@@ -488,9 +495,8 @@
 299054,United States of America
 2362,United States of America
 327331,United States of America
+327331,United States of America
 572802,United States of America
-85350,United States of America
-695721,United States of America
 624860,United States of America
 420817,United States of America
 13597,United Kingdom
@@ -566,70 +572,59 @@
 433249,United States of America
 955916,United States of America
 11470,United States of America
-673,United Kingdom
-673,United States of America
-86829,France
-86829,United Kingdom
-513310,United Kingdom
-513310,United States of America
+10803,United States of America
+34223,United States of America
+20766,United States of America
+857,United States of America
+436270,United States of America
+37135,United States of America
+354287,United States of America
+9480,Switzerland
+9480,United States of America
+507086,United States of America
+8587,United States of America
 425909,Canada
 425909,United States of America
-369557,Ireland
-369557,United Kingdom
-369557,United States of America
-149,Japan
-637649,United Kingdom
-637649,United States of America
-1211483,Canada
-188927,United States of America
-664,United States of America
+974036,United States of America
+13597,United Kingdom
+13597,United States of America
+446354,India
+446354,United States of America
+1417,Mexico
+1417,Spain
+1417,United States of America
+269149,United States of America
+504949,Australia
+504949,United States of America
+1028703,United States of America
+240,United States of America
+980489,United States of America
+848538,United Kingdom
+848538,United States of America
+829560,Poland
+557,United States of America
+260346,France
+260346,United States of America
+72808,Italy
+271110,United States of America
+310307,Greece
+310307,United States of America
+157433,United States of America
+484718,United States of America
+619979,United States of America
 467244,Poland
 467244,United Kingdom
 467244,United States of America
-269149,United States of America
-120,New Zealand
-120,United States of America
-354287,United States of America
-1263421,Japan
-507086,United States of America
-446354,India
-446354,United States of America
-50014,India
-50014,United Arab Emirates
-50014,United States of America
-411,United Kingdom
-411,United States of America
-411,United Kingdom
-411,United States of America
-588228,United States of America
-504949,Australia
-504949,United States of America
-273477,United States of America
-384521,United States of America
-424121,United States of America
-424121,United Kingdom
-278,United States of America
-22,United States of America
-412656,Canada
-412656,Hong Kong
-412656,United States of America
-22450,United States of America
-341006,United States of America
-597,United States of America
-12153,United States of America
-310307,Greece
-310307,United States of America
+58,United States of America
+767,United Kingdom
+767,United States of America
+18,France
+18,United Kingdom
+18,United States of America
+871,United States of America
 1930,United States of America
-758679,Belgium
-758679,United Kingdom
-758679,United States of America
-418078,United States of America
-152601,United States of America
-345887,United States of America
-848538,United Kingdom
-848538,United States of America
+213,United States of America
 49863,United States of America
-974635,United States of America
 630004,France
 630004,Spain
 857,United States of America
@@ -703,11 +698,14 @@
 675353,United States of America
 429617,United States of America
 545609,United States of America
+1010600,United Kingdom
+1010600,United States of America
 9603,United States of America
 453395,United States of America
 537915,United States of America
 933131,South Korea
 381284,United States of America
+1175156,Italy
 387426,South Korea
 387426,United States of America
 984249,United States of America
@@ -769,30 +767,35 @@
 20352,United States of America
 58,United States of America
 4488,United States of America
+2246,Canada
 2246,United States of America
-698835,Japan
-12445,United Kingdom
-12445,United States of America
-6950,United States of America
-829560,Poland
-72808,Italy
+337167,United States of America
+49521,United Kingdom
+49521,United States of America
+1015303,Canada
+1015303,United Kingdom
+1015303,United States of America
 177572,United States of America
+260514,United States of America
+8966,United States of America
 210577,United States of America
-8469,United States of America
-12444,United Kingdom
-12444,United States of America
-709,United Kingdom
-709,United States of America
-661374,United States of America
-11688,United States of America
-607,United States of America
-9502,United States of America
-1212073,Germany
-598,Brazil
-598,France
-598,Germany
-598,United States of America
+150689,United Kingdom
+150689,United States of America
+93456,United States of America
+9100,United States of America
+646,United Kingdom
+387426,South Korea
+387426,United States of America
+561,Germany
+561,United States of America
+1139829,United States of America
+455207,United States of America
+496450,China
+496450,France
 673593,United States of America
+954,United States of America
+446354,India
+446354,United States of America
 756999,United States of America
 745,United States of America
 802219,United States of America
@@ -872,7 +875,6 @@
 602,United States of America
 1014590,United Kingdom
 1014590,United States of America
-131631,United States of America
 500664,Australia
 500664,United States of America
 1124127,United States of America
@@ -919,6 +921,7 @@
 37135,United States of America
 2019,United States of America
 390845,South Korea
+390845,South Korea
 585083,United States of America
 1151534,Spain
 697843,Austria
@@ -940,40 +943,37 @@
 438799,Canada
 438799,United States of America
 10192,United States of America
-102382,United States of America
-10681,United States of America
-177677,United States of America
-102382,United States of America
-10681,United States of America
-177677,United States of America
-585511,Spain
-585511,United States of America
-1257750,Kuwait
-1257750,Lebanon
-533642,Canada
-533642,United States of America
-50620,United States of America
-630240,Belgium
-630240,France
-181808,United States of America
-8913,United States of America
-559,United States of America
+8078,United States of America
+8078,France
+10193,United States of America
+782,United States of America
+140607,United States of America
+429,United States of America
+429,Italy
+429,Spain
+429,Germany
+646207,Canada
+646207,United States of America
+641934,United States of America
 73723,Japan
 73723,United States of America
-345922,United States of America
-396371,United States of America
-508943,United States of America
-50270,Italy
-296523,United States of America
-522016,France
-522016,Hong Kong
-522016,Morocco
-522016,Taiwan
-522016,United States of America
-11224,United States of America
-373571,China
-373571,Japan
-373571,United States of America
+709,United Kingdom
+709,United States of America
+10882,United States of America
+338766,United States of America
+13850,United States of America
+515195,United Kingdom
+515195,United States of America
+253935,France
+1273196,United States of America
+177677,United States of America
+652,United States of America
+652,Malta
+652,United Kingdom
+533642,Canada
+533642,United States of America
+97,United States of America
+131631,United States of America
 290250,United States of America
 9739,United States of America
 253935,France
@@ -1021,12 +1021,14 @@
 1015303,Canada
 1015303,United Kingdom
 1015303,United States of America
+1094556,United States of America
 18785,United States of America
 31507,United States of America
 1143319,United States of America
 438493,United States of America
 663712,United States of America
 127585,United States of America
+12155,United States of America
 32629,Hong Kong
 379149,China
 379149,India
@@ -1057,7 +1059,6 @@
 277216,United Kingdom
 277216,United States of America
 11298,United States of America
-823482,United States of America
 10191,United States of America
 10625,United States of America
 205587,United States of America
@@ -1067,11 +1068,6 @@
 427641,United States of America
 11324,United States of America
 24021,United States of America
-1027073,Belgium
-1027073,France
-1027073,Ireland
-1027073,Switzerland
-1027073,United States of America
 508442,United States of America
 566525,United States of America
 107,United Kingdom
@@ -1088,13 +1084,14 @@
 207703,United Kingdom
 207703,United States of America
 483686,Japan
-1094556,United States of America
 37165,United States of America
 9289,United States of America
 7299,United States of America
 65,Germany
 65,United States of America
 396422,United States of America
+561,Germany
+561,United States of America
 561,Germany
 561,United States of America
 49013,United States of America
@@ -1135,8 +1132,10 @@
 340275,United States of America
 292011,United States of America
 587792,United States of America
-1010600,United Kingdom
-1010600,United States of America
+433808,Canada
+433808,United Kingdom
+433808,United States of America
+101299,United States of America
 433808,Canada
 433808,United Kingdom
 433808,United States of America
@@ -1147,13 +1146,13 @@
 899445,United Kingdom
 899445,United States of America
 93456,United States of America
-1175156,Italy
 506574,United States of America
 399055,United States of America
 168259,United States of America
 420634,United States of America
 36557,United Kingdom
 36557,United States of America
+1071215,United States of America
 334521,United Kingdom
 3933,United Kingdom
 3933,United States of America
@@ -1161,34 +1160,28 @@
 339419,United States of America
 88,United States of America
 810,United States of America
-11797,United States of America
-337404,United States of America
-678512,United States of America
-678512,United States of America
-914,United States of America
-12155,United States of America
-1248795,Turkey
-1227816,United States of America
-176,United States of America
-286217,United Kingdom
-286217,United States of America
-4723,Germany
-4723,United States of America
-4723,France
-116776,Japan
-337167,United States of America
-423108,United States of America
-798612,United States of America
-614930,Canada
-614930,France
-614930,United States of America
-109418,United States of America
-916224,Japan
-341174,Japan
-341174,United States of America
-184315,Hungary
-184315,United States of America
+24584,United Kingdom
+678,United States of America
+1927,United States of America
+7512,United States of America
+961323,United Kingdom
+961323,United States of America
+483685,Japan
+10625,United States of America
+1495,Germany
+1495,Spain
+1495,United Kingdom
+1495,United States of America
+262500,Canada
+262500,United States of America
+823482,United States of America
+2105,United States of America
+807172,United States of America
+10589,United States of America
+6950,United States of America
+10895,United States of America
 13475,United States of America
+496243,South Korea
 7555,Germany
 7555,United States of America
 522162,Canada
@@ -1220,7 +1213,6 @@
 961323,United States of America
 101,United States of America
 101,France
-2105,United States of America
 628,United States of America
 243688,United States of America
 389,United States of America
@@ -1267,6 +1259,10 @@
 78,Hong Kong
 78,United Kingdom
 384527,Italy
+78,United States of America
+78,Hong Kong
+78,United Kingdom
+384527,Italy
 500,United States of America
 158852,United States of America
 1040148,United States of America
@@ -1285,12 +1281,11 @@
 744275,France
 744275,United States of America
 744275,Bulgaria
+493529,Canada
+493529,United States of America
 390043,Bulgaria
 390043,Canada
 390043,France
 390043,Hong Kong
 390043,Netherlands
 390043,United States of America
-11977,United States of America
-209112,United States of America
-24584,United Kingdom

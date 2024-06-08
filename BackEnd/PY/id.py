@@ -18,7 +18,7 @@ def guardar_datos_csv(datos, archivo_salida):
     
 def main():
     api_key = "2fb2d38addc4c92105c4f9ad0a4efe66"
-    archivo_salida = "id.csv"
+    archivo_salida = "CSV/id.csv"
     t_id = []
     for i in range(1,51):
         data = obtener_datos(i,api_key)

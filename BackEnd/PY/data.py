@@ -23,13 +23,13 @@ def guardar_datos_csv(datos, archivo_salida):
 
 def main():
     api_key = "2fb2d38addc4c92105c4f9ad0a4efe66"
-    archivo_ids = 'id.csv'
-    archivo_generos = 'generos.csv'
-    archivo_cast = 'cast.csv'
-    archivo_pelicula = 'pelicula.csv'
-    archivo_descrip = 'descrip.csv'
-    archivo_compa = 'compa.csv'
-    archivo_pais = 'pais.csv'
+    archivo_ids = 'CSV/id.csv'
+    archivo_generos = 'CSV/generos.csv'
+    archivo_cast = 'CSV/cast.csv'
+    archivo_pelicula = 'CSV/pelicula.csv'
+    archivo_descrip = 'CSV/descrip.csv'
+    archivo_compa = 'CSV/compa.csv'
+    archivo_pais = 'CSV/pais.csv'
 
     ids = leer_ids(archivo_ids)
     t_generos = []
