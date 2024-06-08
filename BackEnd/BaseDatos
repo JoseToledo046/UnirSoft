@@ -47,7 +47,7 @@ CREATE TABLE unirsoftbusca.t_generos (
   id_film INT NOT NULL,
   id_genero INT NOT NULL,
   desc_genero VARCHAR(45) NULL,
-  PRIMARY KEY (id_film),
+  PRIMARY KEY (id_film, id_genero),
   CONSTRAINT id_film_genero
     FOREIGN KEY (id_film)
     REFERENCES unirsoftbusca.t_film (id_film)
@@ -57,13 +57,12 @@ CREATE TABLE unirsoftbusca.t_generos (
 CREATE TABLE unirsoftbusca.t_cast (
   id_film INT NOT NULL,
   idcast INT NOT NULL,
-  name VARCHAR(100) NULL,
-  t_castcol VARCHAR(100) NULL,
+  name VARCHAR(100) NOT NULL,
   original_name VARCHAR(100) NULL,
   castpopularity DECIMAL(65,3) NULL,
   profile_path VARCHAR(100) NULL,
   charac_name VARCHAR(100) NULL,
-  PRIMARY KEY (id_film),
+  PRIMARY KEY (id_film, idcast, name),
   CONSTRAINT id_film_cast
     FOREIGN KEY (id_film)
     REFERENCES unirsoftbusca.t_film (id_film)
@@ -71,21 +70,21 @@ CREATE TABLE unirsoftbusca.t_cast (
     ON UPDATE NO ACTION);
 
 CREATE TABLE unirsoftbusca.t_produccion (
-  if_film INT NOT NULL,
+  id_film INT NOT NULL,
   id_compa INT NOT NULL,
   logo_path VARCHAR(100) NULL,
   namecompa VARCHAR(100) NULL,
-  PRIMARY KEY (if_film),
+  PRIMARY KEY (id_film, id_compa),
   CONSTRAINT id_film_prod
-    FOREIGN KEY (if_film)
+    FOREIGN KEY (id_film)
     REFERENCES unirsoftbusca.t_film (id_film)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
 	
 CREATE TABLE unirsoftbusca.t_pais_rodaje (
   id_film INT NOT NULL,
-  pais VARCHAR(45) NULL,
-  PRIMARY KEY (id_film),
+  pais VARCHAR(45) NOT NULL,
+  PRIMARY KEY (id_film, pais),
   CONSTRAINT id_film_pais
     FOREIGN KEY (id_film)
     REFERENCES unirsoftbusca.t_film (id_film)
