@@ -9,6 +9,7 @@ export const NavBar = ({}) => {
       <Link to = "/"><img src={logo} alt='Home' className='navbar__img'></img></Link>
       <Link to = "/" className='navbar__item'> Home </Link>
       <Link to = "/busqueda" className='navbar__item'>Buscar</Link>
+      <Link to = "/buscar" className='navbar__item'>Search</Link>
       <Link to = "/user" className='navbar__item'>User</Link>
     </ul>
   </nav>

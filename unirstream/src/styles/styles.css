@@ -183,3 +183,40 @@ html{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.filtros{
+    display: flex;
+    gap: 1rem;
+}
+
+.resultados{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.lista-peliculas{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+.item-pelicula {
+    
+    /* border: 1px solid white; */
+    
+}
+.item-pelicula img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 1rem;
+    
+}
+.item-pelicula p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+p.titulo-pelicula{
+    font-weight: 600;
+}
