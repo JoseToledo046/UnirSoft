@@ -10,17 +10,17 @@ export const FilmList = ({idfilm}) => {
         <div className="pelicula">
             {film && 
             <Film
-            id = {film.id}
-            original_title = {film.original_title}
-            backdrop_path = {"https://image.tmdb.org/t/p/original/" + film.backdrop_path}
-            poster_path = {"https://image.tmdb.org/t/p/original/" + film.poster_path}
-            genres = {film.genres}
+            idFilm = {film.idFilm}
+            originalTitle = {film.originalTitle}
+            backdropPath = {film.backdropPath}
+            posterPath = {film.posterPath}
+            generos = {film.generos}
             budget = {film.budget}
             tagline = {film.tagline}
             overview = {film.overview}
             vote_count = {film.vote_count}
-            vote_average = {film.vote_average}
-            release_date = {film.release_date}
+            voteAverage = {film.voteAverage}
+            releaseDate = {film.releaseDate}
             revenue  = {film.revenue}
             />
             }

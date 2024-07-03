@@ -6,13 +6,14 @@ export const useFilm = (id) => {
 
     useEffect(() => {
 
-        const url = "https://api.themoviedb.org/3/movie/" + id + "?api_key=2fb2d38addc4c92105c4f9ad0a4efe66&language=es-ES";
+        //const url = "https://api.themoviedb.org/3/movie/" + id + "?api_key=2fb2d38addc4c92105c4f9ad0a4efe66&language=es-ES";
+        const url = "https://unirsoft-gateway-production.up.railway.app/buscador-service/api/peliculas?idFilm=" + id ;
 
         const fetchRequest = async () => {
             let res = await fetch(url);
             let data = await res.json();
-            let temp = data;
-            setFilm(temp);
+            let temp = data.peliculas;
+            setFilm(temp[0]);
         };
 
         fetchRequest(); 

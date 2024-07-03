@@ -7,9 +7,10 @@ export const useCatalogo = () => {
     useEffect(() => {
 
         const fetchRequest = async () => {
-            let res = await fetch("https://api.themoviedb.org/3/discover/movie?api_key=2fb2d38addc4c92105c4f9ad0a4efe66&language=es-ES");
+            let urlServ = 'https://unirsoft-gateway-production.up.railway.app/buscador-service/api/peliculas'
+            let res = await fetch(urlServ);
             let data = await res.json();
-            let temp = data.results;
+            let temp = data.peliculas;
             setCatalogos(temp);
         };
 
