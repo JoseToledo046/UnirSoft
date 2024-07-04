@@ -5,17 +5,16 @@ import useShop from "../hooks/useShop";
 export const Film = ({ originalTitle, backdropPath, posterPath, generos, budget, tagLine, overview, vote_count, voteAverage, releaseDate, revenue, idFilm }) => {
 
     const valor = voteAverage * 10;
-    console.log(voteAverage);
 
     const {filmRent, addRent} = useRent();
     const {filmShop, addShop} = useShop();
 
     const handleAddRent  = () => {
-        addRent(id, originalTitle, posterPath);
+        addRent(idFilm, originalTitle, posterPath);
     }
 
     const handleAddShop  = () => {
-        addShop(id, originalTitle, posterPath);
+        addShop(idFilm, originalTitle, posterPath);
     }
 
     return (
@@ -38,7 +37,7 @@ export const Film = ({ originalTitle, backdropPath, posterPath, generos, budget,
                 <p><b>Presupuesto: </b>{budget}</p>
                 <p><b>Ganacia: </b>{revenue}</p>
                 <p><b>Fecha estreno: </b>{releaseDate}</p>
-
+                <p>{generos}</p>
                 <p><b>Sinopsis: </b>{overview}</p>
             </div>
         </div>
