@@ -7,7 +7,6 @@ import User from '../views/User';
 import Busqueda from '../views/Busqueda';
 import NotFound from '../views/NotFound';
 import Find from '../views/Find';
-import  Search  from '../views/Search';
 function GlobalRouter() {
     return (
         <BrowserRouter>
@@ -15,7 +14,6 @@ function GlobalRouter() {
             <Route path = "/" exact element = {<Home />} />
             <Route path = "/movie/:id" exact element = {<Pelicula />} />
             <Route path = "/busqueda" exact element = {<Busqueda />} />
-            <Route path = "/buscar" exact element = {<Search />} />
             <Route path = "/find/:cadenaBusc" exact element = {<Find />} />
             <Route path = "/user" exact element = {<User />} />
             <Route path = "*" element={<NotFound />} />
