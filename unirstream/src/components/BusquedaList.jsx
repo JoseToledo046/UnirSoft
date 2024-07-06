@@ -6,6 +6,7 @@ export const BusquedaList = ({concep}) => {
 
     const {busqueda} = useBusqueda(concep);
 
+    console.log(concep)
     return(
         <div className="catalogo--cuadricula">
             {busqueda && busqueda.map((movie, index) => (
