@@ -194,6 +194,7 @@ html{
 .carrusel{
     height: 250px;
     display: flex;
+    overflow-x: scroll;
 }
 
 .carrusel .item-carrusel img{
