@@ -10,15 +10,13 @@ export const useRent = () => {
 
 
     const handleConfirmCancel = (id, original_title, poster_path) => {
-        if (window.confirm("¿Estás seguro de que deseas proceder?")) {
+        if (window.confirm("¿Estás seguro de que deseas RENTAR la pelicula?")) {
             const peliculaRenta = {
                 "userId": "JTOLEDO",
                 "movieIds": [parseInt(id)], // [id],
                 "type": "R",
                 "traFecfin": "2025-07-07"
             }         
-            alert("Has confirmado la acción.");    
-            console.log(peliculaRenta)
             fetch('https://unirsoft-gateway-production.up.railway.app/operador-service/api/transacciones', {
                 method: 'POST',
                 headers: {
@@ -29,14 +27,14 @@ export const useRent = () => {
                 .then(response => response.json())
                 .then(data => {
                     console.log('Success:', data);
-                    alert("Se ha rentado la película con exito");
+                    data.status == 201 ? alert("Se ha RENTADO la pelicula con exito") : alert("lA PELICULA YA FUE RENTADA");
                 })
                 .catch((error) => {
                     console.error('Error:', error);
                 });
 
         } else {
-          alert("Has cancelado la acción.");
+          alert("Has cancelado la acción");
         }
       };
 

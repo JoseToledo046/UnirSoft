@@ -7,15 +7,13 @@ export const useShop = () => {
     });
 
     const handleConfirmCancel = (id, original_title, poster_path) => {
-        if (window.confirm("¿Estás seguro de que deseas proceder?")) {
+        if (window.confirm("¿Estás seguro de que deseas COMPRAR la pelicula?")) {
             const peliculaRenta = {
                 "userId": "JTOLEDO",
                 "movieIds": [parseInt(id)], // [id],
                 "type": "V",
                 "traFecfin": "2025-07-07"
             }         
-            alert("Has confirmado la acción.");    
-            console.log(peliculaRenta)
             fetch('https://unirsoft-gateway-production.up.railway.app/operador-service/api/transacciones', {
                 method: 'POST',
                 headers: {
@@ -26,7 +24,7 @@ export const useShop = () => {
                 .then(response => response.json())
                 .then(data => {
                     console.log('Success:', data);
-                    alert("Se ha comprado la película con exito");
+                    data.status == 201 ? alert("Se ha COMPRADO la pelicula con éxito") : alert("lA PELICULA YA FUE COMPRADA");
                 })
                 .catch((error) => {
                     console.error('Error:', error);
