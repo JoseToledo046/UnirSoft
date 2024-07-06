@@ -11,11 +11,11 @@ export const BusquedaList = ({concep}) => {
             {busqueda && busqueda.map((movie, index) => (
                 <Busqueda
                 key={index}
-                original_title = {movie.original_title}
-                poster_path = {"https://image.tmdb.org/t/p/original/" + movie.poster_path}
+                originalTitle = {movie.originalTitle}
+                posterPath = {movie.posterPath}
                 overview = {movie.overview}
-                vote_average = {movie.vote_average}
-                id = {movie.id}
+                voteAverage = {movie.voteAverage}
+                idFilm = {movie.idFilm}
                 />
             ))}
         </div>
