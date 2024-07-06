@@ -13,7 +13,7 @@ export const MovieList = () => {
                 key={index}
                 originalTitle = {movie.originalTitle}
                 posterPath = {movie.posterPath}
-                overview = {movie.overview}
+                overview = {movie.tagLine}
                 voteAverage = {movie.voteAverage}
                 idFilm = {movie.idFilm}
                 />
