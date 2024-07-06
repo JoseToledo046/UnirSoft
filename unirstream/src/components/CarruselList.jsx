@@ -1,23 +1,22 @@
 import { useRef, useState } from "react";
-import {Carrusel} from "../components/Carrusel";
-import {useCarrusel} from "../hooks/useCarrusel";
+import { Carrusel } from "../components/Carrusel";
+import { useCarrusel } from "../hooks/useCarrusel";
 
 
 export const CarruselList = () => {
 
-    const dataCarrusel = useCarrusel();
-    console.log(dataCarrusel);
+    const {carrusel} = useCarrusel();
 
-    return(
+    return (
 
         <div>
-            {
-                dataCarrusel&&
-                <Carrusel 
-                id = {dataCarrusel.idFilm}
-                dirImagen = {dataCarrusel.backdropPath}
+            {carrusel && carrusel.map((movie, index) => (
+                <Carrusel
+                key={index}
+                id = {movie.idFilm}
+                dirImagen = {movie.backdropPath}
                 />
-            }
+            ))}
         </div>
 
     )
