@@ -1,12 +1,10 @@
 import React from "react";
 
-export const Carrusel = (id, dirImagen) => {
+export const Carrusel = ({id, dirImagen}) => {
 
     return(
         <div>
-            <li key={id}>
-                <img src = {dirImagen} />
-            </li>
+            <img src={dirImagen} alt={id} />
         </div>
     )
 
