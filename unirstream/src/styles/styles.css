@@ -1,12 +1,11 @@
 html{
-    background-color: #424242;
+    background-color: #101115;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #212121;
-    border-radius: 3rem;
+    background-color: transparent;
 }
 
 .navbar__img{
@@ -20,6 +19,10 @@ html{
     text-decoration: none;
     margin-left: 1rem;
     font-size: large;
+}
+
+.navbar__item:hover{
+    background-color: #28292D;
 }
 
 .footer{
