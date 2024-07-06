@@ -51,7 +51,7 @@ html{
     margin-bottom: 1rem;
     border-radius: 1rem;
     align-items: center;
-    max-width: 40%;
+    /* max-width: 40%; */
 }
 
 .catalogo__img{
@@ -70,9 +70,13 @@ html{
 }
 
 .catalogo--cuadricula {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    
+    
 }
 
 .pelicula{
@@ -186,3 +190,16 @@ html{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.carrusel{
+    height: 250px;
+    display: flex;
+}
+
+.carrusel .item-carrusel img{
+    height: 250px;
+}
+
+/* .carrusel .item-carrusel{
+    display: flex;
+} */

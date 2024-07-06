@@ -9,7 +9,7 @@ export const CarruselList = () => {
 
     return (
 
-        <div>
+        <div className="carrusel">
             {carrusel && carrusel.map((movie, index) => (
                 <Carrusel
                 key={index}
