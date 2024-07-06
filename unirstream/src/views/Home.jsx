@@ -3,18 +3,24 @@ import { NavBar } from "../components/Navbar";
 import  Footer  from "../components/Footer";
 import { MovieList } from "../components/MovieList"
 import {CarruselList} from "../components/CarruselList";
+import { useCarrusel } from "../hooks/useCarrusel";
 
 function Home() {
-    const images = [
-        'https://static.posters.cz/image/hp/75998.jpg',
-        'https://static.posters.cz/image/hp/106363.jpg',
-        'https://static.posters.cz/image/hp/65856.jpg',
-    ];
+
+    const { carrusel } = useCarrusel();
+   console.log(carrusel)
 
     return (
         <div>
             <NavBar />
-            <CarruselList images={images}/>
+            {/* <CarruselList images={carrusel}/> */}
+
+            {carrusel ? (
+        <CarruselList images={carrusel} />
+      ) : (
+        <p>Cargando...</p>
+      )}
+
             <MovieList />
             <Footer />
         </div>

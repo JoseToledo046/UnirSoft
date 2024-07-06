@@ -11,14 +11,18 @@ export const useCarrusel = () => {
             let urlServ = 'https://unirsoft-gateway-production.up.railway.app/buscador-service/api/peliculas?voteAverage=8-10&page=' + pageNum;
             let res = await fetch(urlServ);
             let data = await res.json();
+            
             let temp = data.peliculas;
-            setCarrusel(temp);
+            console.log(temp)
+            const backdropPaths = temp.map(pelicula => pelicula.backdropPath);
+            console.log(backdropPaths)
+            setCarrusel(backdropPaths);
         };
 
         fetchRequest(); 
 
 
-    }, [1])
+    }, [])
 
     return { carrusel }
 }

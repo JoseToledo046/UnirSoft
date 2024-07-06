@@ -8,6 +8,7 @@ export const CarruselList = ({images, interval = 5000}) => {
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
+    
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCurrentImageIndex((prevIndex) =>
