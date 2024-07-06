@@ -1,0 +1,35 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.carousel__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel__button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel__button:first-child {
+    left: 10px;
+}
+
+.carousel__button:last-child {
+    right: 10px;
+}
+
+.carousel__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-top: 5px solid white;
+}
