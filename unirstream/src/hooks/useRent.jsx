@@ -39,7 +39,6 @@ export const useRent = () => {
       };
 
     const addRent = (id, original_title, poster_path) => {
-        // console.log(id, original_title, poster_path)
         handleConfirmCancel(id, original_title, poster_path);
         // const updatedRent = [...filmRent, { id, original_title, poster_path }];
         // setFilmRent(updatedRent);
@@ -52,9 +51,3 @@ export const useRent = () => {
 
 export default useRent;
 
-// {
-//     "userId": "JTOLEDO",
-//     "movieIds": [19],
-//     "type": "R",
-//     "traFecfin": "2024-07-07"
-// }

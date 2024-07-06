@@ -1,30 +1,23 @@
-import React, { useContext} from "react";
+import React, { useContext } from "react";
 import { NavBar } from "../components/Navbar";
-import  Footer  from "../components/Footer";
-import { MovieList } from "../components/MovieList"
-import {CarruselList} from "../components/CarruselList";
+import Footer from "../components/Footer";
+import { MovieList } from "../components/MovieList";
+import { CarruselList } from "../components/CarruselList";
 import { useCarrusel } from "../hooks/useCarrusel";
 
 function Home() {
+  const { carrusel } = useCarrusel();
+     console.log(carrusel)
+  return (
+    <div>
+      <NavBar />
 
-    const { carrusel } = useCarrusel();
-   console.log(carrusel)
+      {carrusel ? <CarruselList images={carrusel} /> : <p>Cargando...</p>}
 
-    return (
-        <div>
-            <NavBar />
-            {/* <CarruselList images={carrusel}/> */}
-
-            {carrusel ? (
-        <CarruselList images={carrusel} />
-      ) : (
-        <p>Cargando...</p>
-      )}
-
-            <MovieList />
-            <Footer />
-        </div>
-    );
-};
+      <MovieList />
+      <Footer />
+    </div>
+  );
+}
 
 export default Home;

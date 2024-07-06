@@ -1,42 +1,27 @@
 import React from "react";
 import { Usuario } from "./Usuario";
-import { useRent } from "../hooks/useRent"
-import { useShop } from "../hooks/useShop"
+import useShopList from "../hooks/useShopList";
 
 export const UsuarioList = () => {
 
-    const {filmRent, addRent } = useRent();
-    const {filmShop, addShop} = useShop();
+    const { filmShop, addShop } = useShopList();
 
-    return(
+    return (
         <div>
-            <div>
-                <h1>Renta: </h1>
-            </div>
-            <div className="usuario--cuadricula">
-                {filmRent && filmRent.map((usuario, index) => (
-                    <Usuario
-                    key={index}
-                    id = {usuario.id}
-                    original_title = {usuario.original_title}
-                    poster_path = {usuario.poster_path}
-                    />
-                ))}
-            </div>
             <div>
                 <h1>Venta: </h1>
             </div>
             <div className="usuario--cuadricula">
                 {filmShop && filmShop.map((usuario, index) => (
                     <Usuario
-                    key={index}
-                    id = {usuario.id}
-                    original_title = {usuario.original_title}
-                    poster_path = {usuario.poster_path}
+                        key={index}
+                        id={usuario.traId}
+                        videoLink={usuario.video}
+                        original_title={usuario.originalTitle}
+                        poster_path={usuario.posterPath}
                     />
                 ))}
             </div>
         </div>
     );
-
 }
