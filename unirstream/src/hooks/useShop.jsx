@@ -40,9 +40,6 @@ export const useShop = () => {
         // console.log(id)
         handleConfirmCancel(id, original_title, poster_path);
 
-        // const updatedShop = [...filmShop, { id, original_title, poster_path }];
-        // setfilmShop(updatedShop);
-        // sessionStorage.setItem('filmShop', JSON.stringify(updatedShop));
     };
 
     return { filmShop, addShop };
